@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-const BlogPost = ({data}) => {
+const BlogPost = ({ data }) => {
   const post = data.markdownRemark
 
   return (
@@ -14,7 +14,7 @@ const BlogPost = ({data}) => {
 
 export const query = graphql`
   query Post($slug: String!) {
-    markdownRemark(fields: {slug: {eq: $slug } }) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
       }
