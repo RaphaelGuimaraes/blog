@@ -24,11 +24,16 @@ const GlobalStyles = createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {
     display: block;
+  }
+  html {
+    scroll-behavior: smooth;
   }
   body {
     line-height: 1;
@@ -55,12 +60,23 @@ const GlobalStyles = createGlobalStyle`
     background: var(--background);
     line-height: 1;
     font-size: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   img {
     display: block;
   	width: 100%;
   	height: auto;
+  }
+
+  body {
+    --black: #222;
+    --blueLight: #00d8ff;
+    --blue: #0171bb;
+    --orange: #f05030;
+    --pink: #f231a5;
+    --red: #dc0030;
+    --white: #fff;
+    --yellow: #f7df1e;
   }
 
   body.dark {
@@ -70,9 +86,8 @@ const GlobalStyles = createGlobalStyle`
     --highlight: #1fa1f2;
     --mediumBackground: #192734;
     --background: #16202c;
-    --white: #fff;
-    --black: #222;
   }
+
   body.light {
     --borders: #dedede;
     --postColor: #111;
@@ -80,8 +95,6 @@ const GlobalStyles = createGlobalStyle`
     --highlight: #1fa1f2;
     --mediumBackground: #f0f0f3;
     --background: #fff;
-    --white: #fff;
-    --black: #222;
   }
 `
 export default GlobalStyles

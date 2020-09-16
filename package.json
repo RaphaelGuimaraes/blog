@@ -34,7 +34,10 @@
     "react-instantsearch-dom": "^6.7.0",
     "styled-components": "^5.2.0",
     "styled-icons": "^10.19.0",
-    "styled-media-query": "^2.1.2"
+    "styled-media-query": "^2.1.2",
+    "typeface-exo": "^0.0.61",
+    "typeface-poppins": "^0.0.72",
+    "typeface-pt-serif": "^0.0.72"
   },
   "devDependencies": {
     "prettier": "2.1.0"

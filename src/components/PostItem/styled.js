@@ -41,14 +41,15 @@ export const PostItemWrapper = styled.section`
 export const PostItemTag = styled.div`
   align-items: center;
   background: ${props => (props.background ? props.background : "var(--highlight)")};
-  border-radius: 50%;
+  border-radius: 4px;
   color: #fff;
   display: flex;
   font-size: 1.3rem;
   font-weight: 700;
   justify-content: center;
-  min-height: 90px;
-  min-width: 90px;
+  line-height: 1.5;
+  opacity: 0.85;
+  padding: 3px 10px 0px;
   text-transform: uppercase;
 
   ${media.lessThan("large")`
