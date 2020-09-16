@@ -7,6 +7,7 @@ import { Bulb as Light } from "@styled-icons/boxicons-regular/Bulb"
 import { Grid } from "@styled-icons/bootstrap/Grid"
 import { ListUl as List } from "@styled-icons/bootstrap/ListUl"
 
+import getThemeColor from "../../utils/getThemeColor"
 import * as S from "./styled"
 
 const MenuBar = () => {
@@ -30,7 +31,7 @@ const MenuBar = () => {
         <S.MenuBarLink
           cover
           direction="right"
-          bg="#16202c"
+          bg={getThemeColor()}
           duration={0.6}
           to="/"
           title="Voltar para Home"
@@ -42,7 +43,7 @@ const MenuBar = () => {
         <S.MenuBarLink
           cover
           direction="right"
-          bg="#16202c"
+          bg={getThemeColor()}
           duration={0.6}
           to="/search/"
           title="Pesquisar"
