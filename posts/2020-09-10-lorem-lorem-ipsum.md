@@ -2,8 +2,8 @@
 date: 2020-09-10 05:54:23
 title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
-category: JS
-background: "#7AAB13"
+category: JavaScript
+featuredImage: /assets/img/desert.jpg
 ---
 
 # Lorem ipsum

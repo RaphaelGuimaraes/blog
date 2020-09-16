@@ -4,7 +4,7 @@ import propTypes from "prop-types"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import * as S from "./styled"
-import getThemeColor from "../../utils/getThemeColor"
+import { getThemeColor } from "../../utils/theme"
 
 const Pagination = ({
   isFirst,

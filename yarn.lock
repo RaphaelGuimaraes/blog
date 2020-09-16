@@ -14675,6 +14675,21 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-exo@^0.0.61:
+  version "0.0.61"
+  resolved "https://registry.yarnpkg.com/typeface-exo/-/typeface-exo-0.0.61.tgz#10c6113292da354cb9f26ee9d0b0c996f1a7a3bd"
+  integrity sha512-AH3bMVYnVpg2G+CJbgtogTuJpWGS0zspHJzzVR8cCgTtkbUI0pj8WBB+RFo14CHbF5MmZgYe7TVoWz+j4Yo6Jg==
+
+typeface-poppins@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-poppins/-/typeface-poppins-0.0.72.tgz#3262d6533dea2e99a5cafb3be7d8fa876e105206"
+  integrity sha512-FgzdU4XfGYc4aTq6WZD9FC+le4Foz6cyzjdjDvVnQePTQSUD0dkrXiVaTK/cyNVXQrEl2ykV39PxeKeFqqkrTA==
+
+typeface-pt-serif@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-pt-serif/-/typeface-pt-serif-0.0.72.tgz#d8761c02a298bd0203e53a2028081b6f03246cd5"
+  integrity sha512-R/ZnbjL3H8mfeWrkYSU1fCk8TAsz+dyw+W5jnqlXXJPcsdu7sT/cGJGqx02zskaMeDCHwdNfTCORN8/NxN7x9w==
+
 unbzip2-stream@^1.0.9:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/unbzip2-stream/-/unbzip2-stream-1.4.3.tgz#b0da04c4371311df771cdc215e87f2130991ace7"

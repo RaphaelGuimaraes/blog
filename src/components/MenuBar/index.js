@@ -7,7 +7,7 @@ import { Bulb as Light } from "@styled-icons/boxicons-regular/Bulb"
 import { Grid } from "@styled-icons/bootstrap/Grid"
 import { ListUl as List } from "@styled-icons/bootstrap/ListUl"
 
-import getThemeColor from "../../utils/getThemeColor"
+import { getThemeColor } from "../../utils/theme"
 import * as S from "./styled"
 
 const MenuBar = () => {
