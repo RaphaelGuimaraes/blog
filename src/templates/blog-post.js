@@ -15,7 +15,11 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        image={post.frontmatter.featuredImage.childImageSharp.fluid.src}
+      />
       <S.PostHeader>
         <S.PostDate>
           {post.frontmatter.date} / {post.timeToRead} min de leitura
@@ -42,6 +46,13 @@ export const query = graphql`
         title
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+        featuredImage {
+          childImageSharp {
+            fluid(maxHeight: 622, maxWidth: 960) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
       html
       timeToRead
