@@ -8,7 +8,7 @@ module.exports = {
     position: `Frontend developer`,
     description: `Um blog sobre frontend e outras coisas mais`,
     author: `@raphaguimaraes`,
-    siteUrl: `https://raphaelguimaraes.com.br`,
+    siteUrl: `https://raphaelguimaraes.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
