@@ -1,24 +1,33 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { BigHead } from "@bigheads/core"
 
 import * as S from "./styled"
 
-const Avatar = () => {
-  const { avatarImage } = useStaticQuery(
-    graphql`
-      query {
-        avatarImage: file(relativePath: { eq: "avatar.jpg" }) {
-          childImageSharp {
-            fluid(maxWidth: 60) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
-        }
-      }
-    `
-  )
-
-  return <S.AvatarWrapper fluid={avatarImage.childImageSharp.fluid} />
-}
+const Avatar = () => (
+  <S.AvatarWrapper>
+    <BigHead
+      accessory="roundGlasses"
+      body="chest"
+      circleColor="blue"
+      clothing="shirt"
+      clothingColor="black"
+      eyebrows="leftLowered"
+      eyes="happy"
+      faceMask={false}
+      faceMaskColor="white"
+      facialHair="none"
+      graphic="none"
+      hair="short"
+      hairColor="black"
+      hat="none3"
+      hatColor="blue"
+      lashes
+      lipColor="red"
+      mask
+      mouth="openSmile"
+      skinTone="light"
+    />
+  </S.AvatarWrapper>
+)
 
 export default Avatar

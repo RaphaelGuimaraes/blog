@@ -82,6 +82,7 @@ export const MainContent = styled.section`
   }
 
   p {
+    font-family: 'PT Serif', serif;
     margin: 0 auto 1.6rem;
   }
   h1,
