@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Raphael Guimarães <raphaguimaraes@gmail.com>",
   "dependencies": {
+    "@bigheads/core": "^0.3.0",
     "algoliasearch": "^4.5.1",
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.50",
